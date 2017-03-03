@@ -3,10 +3,17 @@ package controllers
 import (
 	"github.com/astaxie/beego"
 	"io/ioutil"
+	"os"
 )
 
 type MainController struct {
 	beego.Controller
+}
+
+func init() {
+	if err := os.Mkdir("files", 0755); err != nil {
+		beego.Error("file folder not maked!")
+	}
 }
 
 func (c *MainController) GetFile() {
