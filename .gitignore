@@ -14,7 +14,8 @@ Icon
 *.dex
  
 # files
-files/
+!files
+files/**
  
 # Log Files
 *.log
