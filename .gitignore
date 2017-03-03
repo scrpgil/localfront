@@ -13,9 +13,8 @@ Icon
 # Files for the Dalvik VM
 *.dex
  
-# files
-!files
-files/**
- 
 # Log Files
 *.log
+
+files/
+!files
