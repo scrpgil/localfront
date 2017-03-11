@@ -12,7 +12,7 @@ type MainController struct {
 
 func init() {
 	if err := os.Mkdir("files", 0755); err != nil {
-		beego.Error("file folder not maked!")
+		beego.Info("file folder not maked!")
 	}
 }
 
