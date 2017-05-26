@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "localfront/routers"
+	_ "github.com/scrpgil/localfront/routers"
 
 	"github.com/astaxie/beego"
 )

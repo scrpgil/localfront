@@ -1,7 +1,7 @@
 package test
 
 import (
-	_ "localfront/routers"
+	_ "github.com/scrpgil/localfront/routers"
 	"net/http"
 	"net/http/httptest"
 	"path/filepath"

@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"localfront/controllers"
+	"github.com/scrpgil/localfront/controllers"
 
 	"github.com/astaxie/beego"
 )
