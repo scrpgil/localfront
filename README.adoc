@@ -7,17 +7,17 @@
 
 beegoとbeeを取得しておく必要があります。
 
----
+----
 go get github.com/astaxie/beego
 go get github.com/astaxie/bee
----
+----
 
 あとは、このリポジトリを取得した場所でbee runコマンドを打てば起動します。  
 
----
+----
 git clone https://github.com/scrpgil/localfront.git
 cd localfront
 bee run
----
+----
 
 デフォルトはポート8090で立ち上がります。「files」フォルダにファイルを配置してください。  
